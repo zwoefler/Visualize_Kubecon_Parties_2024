@@ -1,2 +1,5 @@
+pandas
+folium
+geopy
 bs4
 requests
