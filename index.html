@@ -11,6 +11,13 @@
     <!-- iframe to display the map -->
     <iframe src="event_locations_map.html" width="800" height="600" frameborder="0"></iframe>
 
+<ul>
+{% for event in site.datai.events %}
+  <li>
+      {{ event }}
+  </li>
+{% endfor %}
+</ul>    
     <p>Other content of your webpage goes here...</p>
 </body>
 </html>
