@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5c4e2c57f60a8000fcba6a40c358fdbc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5c4e2c57f60a8000fcba6a40c358fdbc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5c4e2c57f60a8000fcba6a40c358fdbc = L.map(
+                "map_5c4e2c57f60a8000fcba6a40c358fdbc",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c54893f9ef8096740b74cbb39a20c00a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c54893f9ef8096740b74cbb39a20c00a.addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+            var marker_b17c74f291ad4f12389bab464c6c6723 = L.marker(
+                [48.8608138, 2.3414564],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_308d61fba3b169a072a996e8792e1d6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d98d1c2b8b7b4c14ee59d25b959afda = $(`<div id="html_8d98d1c2b8b7b4c14ee59d25b959afda" style="width: 100.0%; height: 100.0%;"> "150 Rue de Rivoli 75001 Paris Frankreich"</div>`)[0];
+                popup_308d61fba3b169a072a996e8792e1d6c.setContent(html_8d98d1c2b8b7b4c14ee59d25b959afda);
+            
+        
+
+        marker_b17c74f291ad4f12389bab464c6c6723.bindPopup(popup_308d61fba3b169a072a996e8792e1d6c)
+        ;
+
+        
+    
+    
+            var marker_12e339c9d88aa6a35f90a4d39738caa3 = L.marker(
+                [48.84430705, 2.423797170025564],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_e1dda908e274380d3b13f44c602fdff7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09db97a99fdb420f912021f93a0a9c42 = $(`<div id="html_09db97a99fdb420f912021f93a0a9c42" style="width: 100.0%; height: 100.0%;"> "2 Av. Pasteur 94160 Saint-Mandé Frankreich"</div>`)[0];
+                popup_e1dda908e274380d3b13f44c602fdff7.setContent(html_09db97a99fdb420f912021f93a0a9c42);
+            
+        
+
+        marker_12e339c9d88aa6a35f90a4d39738caa3.bindPopup(popup_e1dda908e274380d3b13f44c602fdff7)
+        ;
+
+        
+    
+    
+            var marker_180acd3ac5a7e23095a4d2c3bc478c0f = L.marker(
+                [48.8522368, 2.3728406],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_f23bed84fe36608113bfd5a6f4bbde2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8aedced4807fa36d9047098a7ae81803 = $(`<div id="html_8aedced4807fa36d9047098a7ae81803" style="width: 100.0%; height: 100.0%;"> "49 Rue du Faubourg Saint-Antoine 75011 Paris Frankreich"</div>`)[0];
+                popup_f23bed84fe36608113bfd5a6f4bbde2d.setContent(html_8aedced4807fa36d9047098a7ae81803);
+            
+        
+
+        marker_180acd3ac5a7e23095a4d2c3bc478c0f.bindPopup(popup_f23bed84fe36608113bfd5a6f4bbde2d)
+        ;
+
+        
+    
+    
+            var marker_215614654bcc619fbcdd0a8596b4e0e1 = L.marker(
+                [48.8608138, 2.3414564],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_7dd2ceae0b0748e17a75a1b542000efe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90570a9970e6cbabaa84c25073f30458 = $(`<div id="html_90570a9970e6cbabaa84c25073f30458" style="width: 100.0%; height: 100.0%;"> "150 Rue de Rivoli 75001 Paris Frankreich"</div>`)[0];
+                popup_7dd2ceae0b0748e17a75a1b542000efe.setContent(html_90570a9970e6cbabaa84c25073f30458);
+            
+        
+
+        marker_215614654bcc619fbcdd0a8596b4e0e1.bindPopup(popup_7dd2ceae0b0748e17a75a1b542000efe)
+        ;
+
+        
+    
+    
+            var marker_528d768cfeb753f463f46a82d453db61 = L.marker(
+                [48.8296607, 2.2839092],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_e2319d956aea3e3c658c7353a5d091a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd505705d9abc0207c4427aa39e065c5 = $(`<div id="html_fd505705d9abc0207c4427aa39e065c5" style="width: 100.0%; height: 100.0%;"> "5 Rue Ernest Renan 92130 Issy-les-Moulineaux Frankreich"</div>`)[0];
+                popup_e2319d956aea3e3c658c7353a5d091a9.setContent(html_fd505705d9abc0207c4427aa39e065c5);
+            
+        
+
+        marker_528d768cfeb753f463f46a82d453db61.bindPopup(popup_e2319d956aea3e3c658c7353a5d091a9)
+        ;
+
+        
+    
+    
+            var marker_40881f6c3989315c39e53ee2f0c41baf = L.marker(
+                [48.832751, 2.2787424],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_8430ca35d6352d6232a2d2ca06648fa9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_813106a39a89a91cfa587b41e1d3a58d = $(`<div id="html_813106a39a89a91cfa587b41e1d3a58d" style="width: 100.0%; height: 100.0%;"> "20 Rue du Colonel Pierre Avia 75015 Paris Frankreich"</div>`)[0];
+                popup_8430ca35d6352d6232a2d2ca06648fa9.setContent(html_813106a39a89a91cfa587b41e1d3a58d);
+            
+        
+
+        marker_40881f6c3989315c39e53ee2f0c41baf.bindPopup(popup_8430ca35d6352d6232a2d2ca06648fa9)
+        ;
+
+        
+    
+    
+            var marker_8f6c8d62041bd901bd3a826d9b5be291 = L.marker(
+                [48.8327539, 2.2768935],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_aabd1423ad075af58b54af05c828c788 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6130cedcaa298c7f72a388d8e2acf717 = $(`<div id="html_6130cedcaa298c7f72a388d8e2acf717" style="width: 100.0%; height: 100.0%;"> "4 Rue Louis Armand 75015 Paris Frankreich"</div>`)[0];
+                popup_aabd1423ad075af58b54af05c828c788.setContent(html_6130cedcaa298c7f72a388d8e2acf717);
+            
+        
+
+        marker_8f6c8d62041bd901bd3a826d9b5be291.bindPopup(popup_aabd1423ad075af58b54af05c828c788)
+        ;
+
+        
+    
+    
+            var marker_1680615061c056e7a86c9933949aa0f9 = L.marker(
+                [48.8338421, 2.2902907],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_2911c78fe56df47a556b3c8b656b5f3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb9c85884ea97e5cedfcde0e2ec15d5b = $(`<div id="html_cb9c85884ea97e5cedfcde0e2ec15d5b" style="width: 100.0%; height: 100.0%;"> "397 Rue de Vaugirard 75015 Paris Frankreich"</div>`)[0];
+                popup_2911c78fe56df47a556b3c8b656b5f3e.setContent(html_cb9c85884ea97e5cedfcde0e2ec15d5b);
+            
+        
+
+        marker_1680615061c056e7a86c9933949aa0f9.bindPopup(popup_2911c78fe56df47a556b3c8b656b5f3e)
+        ;
+
+        
+    
+    
+            var marker_623d75a0785e15defc235f40fecfd6ae = L.marker(
+                [48.8307147, 2.2614727],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_549ffc881bec21145406caadfcb18f24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39326da0f3aa6895769f3b751a7d058f = $(`<div id="html_39326da0f3aa6895769f3b751a7d058f" style="width: 100.0%; height: 100.0%;"> "37 Quai du Président Roosevelt 92130 Issy-les-Moulineaux Frankreich"</div>`)[0];
+                popup_549ffc881bec21145406caadfcb18f24.setContent(html_39326da0f3aa6895769f3b751a7d058f);
+            
+        
+
+        marker_623d75a0785e15defc235f40fecfd6ae.bindPopup(popup_549ffc881bec21145406caadfcb18f24)
+        ;
+
+        
+    
+    
+            var marker_5fb4081a09a504ac3c598875c7ed37be = L.marker(
+                [48.8716685, 2.3297524],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_dcc3859d730cc834afab70aedd10ae63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9c272978113440de528af670c3006fb = $(`<div id="html_c9c272978113440de528af670c3006fb" style="width: 100.0%; height: 100.0%;"> "4 Imp. Sandrie 75009 Paris Frankreich"</div>`)[0];
+                popup_dcc3859d730cc834afab70aedd10ae63.setContent(html_c9c272978113440de528af670c3006fb);
+            
+        
+
+        marker_5fb4081a09a504ac3c598875c7ed37be.bindPopup(popup_dcc3859d730cc834afab70aedd10ae63)
+        ;
+
+        
+    
+    
+            var marker_faa105eac9331e0cc19d09a8a2b6319d = L.marker(
+                [48.8707002, 2.3505428],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_0bb3b80d5d9dba3bfc0348d411f91730 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be52a7e4764e463c3eaf9896454fb81f = $(`<div id="html_be52a7e4764e463c3eaf9896454fb81f" style="width: 100.0%; height: 100.0%;"> "3 Imp. Bonne Nouvelle 75010 Paris Frankreich"</div>`)[0];
+                popup_0bb3b80d5d9dba3bfc0348d411f91730.setContent(html_be52a7e4764e463c3eaf9896454fb81f);
+            
+        
+
+        marker_faa105eac9331e0cc19d09a8a2b6319d.bindPopup(popup_0bb3b80d5d9dba3bfc0348d411f91730)
+        ;
+
+        
+    
+    
+            var marker_f3c666e8f8b948af15e7b33738be2487 = L.marker(
+                [48.8357004, 2.29299],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_2bf7de4646feaaf0836bd599961db0ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c926ca2c48ec6a546c81b0282a1a54b = $(`<div id="html_4c926ca2c48ec6a546c81b0282a1a54b" style="width: 100.0%; height: 100.0%;"> "354 Bis Rue de Vaugirard 75015 Paris Frankreich"</div>`)[0];
+                popup_2bf7de4646feaaf0836bd599961db0ea.setContent(html_4c926ca2c48ec6a546c81b0282a1a54b);
+            
+        
+
+        marker_f3c666e8f8b948af15e7b33738be2487.bindPopup(popup_2bf7de4646feaaf0836bd599961db0ea)
+        ;
+
+        
+    
+    
+            var marker_ca6da3a742bee77dd186794c6e9f7eff = L.marker(
+                [48.8491703, 2.2843117],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_d2eeab1fab125a4ac81060ca41cd4a89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c9e7a29d2d9d70f7b7688d9576879d0 = $(`<div id="html_0c9e7a29d2d9d70f7b7688d9576879d0" style="width: 100.0%; height: 100.0%;"> "15 Rue Gaston de Caillavet 75015 Paris Frankreich"</div>`)[0];
+                popup_d2eeab1fab125a4ac81060ca41cd4a89.setContent(html_0c9e7a29d2d9d70f7b7688d9576879d0);
+            
+        
+
+        marker_ca6da3a742bee77dd186794c6e9f7eff.bindPopup(popup_d2eeab1fab125a4ac81060ca41cd4a89)
+        ;
+
+        
+    
+    
+            var marker_61d9b854f04dc7f4912df420ad714ab1 = L.marker(
+                [48.8321776, 2.2900155],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_fff365999d0176ac3556fe86c814489d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1754b10d8db992ea9a5f898ee6d3415 = $(`<div id="html_c1754b10d8db992ea9a5f898ee6d3415" style="width: 100.0%; height: 100.0%;"> "19 Bd Lefebvre 75015 Paris Frankreich"</div>`)[0];
+                popup_fff365999d0176ac3556fe86c814489d.setContent(html_c1754b10d8db992ea9a5f898ee6d3415);
+            
+        
+
+        marker_61d9b854f04dc7f4912df420ad714ab1.bindPopup(popup_fff365999d0176ac3556fe86c814489d)
+        ;
+
+        
+    
+    
+            var marker_21ed9c69ed54447928855718449c013c = L.marker(
+                [48.8335017, 2.2868863],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_cb91ef77bb42edc6f7cd3f4e3571de3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e997fb02c9d9f2e6a72b23a93085f310 = $(`<div id="html_e997fb02c9d9f2e6a72b23a93085f310" style="width: 100.0%; height: 100.0%;"> "53 Bd Victor 75015 Paris Frankreich"</div>`)[0];
+                popup_cb91ef77bb42edc6f7cd3f4e3571de3d.setContent(html_e997fb02c9d9f2e6a72b23a93085f310);
+            
+        
+
+        marker_21ed9c69ed54447928855718449c013c.bindPopup(popup_cb91ef77bb42edc6f7cd3f4e3571de3d)
+        ;
+
+        
+    
+    
+            var marker_ef083eeb302d3f83e1f114d69578b7d2 = L.marker(
+                [48.8337277, 2.2902701],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_8bc29995a34c374be1a9c9f04423714a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9770f90d41cdf9a22a5c4c578d991998 = $(`<div id="html_9770f90d41cdf9a22a5c4c578d991998" style="width: 100.0%; height: 100.0%;"> "397 Bis Rue de Vaugirard 75015 Paris Frankreich"</div>`)[0];
+                popup_8bc29995a34c374be1a9c9f04423714a.setContent(html_9770f90d41cdf9a22a5c4c578d991998);
+            
+        
+
+        marker_ef083eeb302d3f83e1f114d69578b7d2.bindPopup(popup_8bc29995a34c374be1a9c9f04423714a)
+        ;
+
+        
+    
+    
+            var marker_0fed2f9b461e5cd2a3220b1ca27ac449 = L.marker(
+                [48.8330006, 2.2859353],
+                {}
+            ).addTo(map_5c4e2c57f60a8000fcba6a40c358fdbc);
+        
+    
+        var popup_447766ba9ffbef1ee0df8c7057eaef7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0102fb88d55ee3919eb22b79282683c9 = $(`<div id="html_0102fb88d55ee3919eb22b79282683c9" style="width: 100.0%; height: 100.0%;"> "34 Bd Victor 75015 Paris Frankreich"</div>`)[0];
+                popup_447766ba9ffbef1ee0df8c7057eaef7f.setContent(html_0102fb88d55ee3919eb22b79282683c9);
+            
+        
+
+        marker_0fed2f9b461e5cd2a3220b1ca27ac449.bindPopup(popup_447766ba9ffbef1ee0df8c7057eaef7f)
+        ;
+
+        
+    
+</script>
+</html>
