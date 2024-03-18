@@ -12,4 +12,12 @@ Parties form: https://conferenceparties.com/kubeconeu24/
 6. Make view per day
 7. Click on marker revelas additional information
 
+
 glhf
+
+
+## Lessons Learned
+- Have a stable internet connection... to receive the location data for addresses
+- OpenStreetMap sucks ass... When you try to find "KaraFun Paris 3 Imp. Bonne Nouvelle" on `Nominatim` you won't find anything...
+- Google API needs verification via VISA, that apparently doesn't work on the train
+

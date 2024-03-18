@@ -7,17 +7,16 @@ import folium
 filtered_data = pd.read_csv('filtered_events.csv')
 locations = filtered_data["Address"]
 
-# Initialize geocoder
-geolocator = Nominatim(user_agent="map_marker")
-
-mymap = folium.Map(location=[48.8566, 2.3522], zoom_start=12)
-
-for location in locations:
+def locate_location(location):
     location_info = geolocator.geocode(location)
     if location_info:
-        lat = location_info.latitude
-        lon = location_info.longitude
-        folium.Marker([lat, lon], popup=location).add_to(mymap)
+        latitude = location_info.latitude
+        longitude = location_info.longitude
+        return latitude, longitude 
 
+    return None, None
 
-mymap.save('event_locations_map.html')
+geolocator = Nominatim(user_agent="map_marker")
+filtered_data["Latitude"], filtered_data["Longitude"] = zip(*filtered_data["Address"].apply(locate_location))
+filtered_data.to_csv("lat_long_events.csv")
+
