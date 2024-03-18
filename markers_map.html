@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a847c3dc81bbd93ff3518f6a568ffcf3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a847c3dc81bbd93ff3518f6a568ffcf3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a847c3dc81bbd93ff3518f6a568ffcf3 = L.map(
+                "map_a847c3dc81bbd93ff3518f6a568ffcf3",
+                {
+                    center: [48.8608138, 2.3414564],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_48f69ce85f29e1c326e5e6922605423c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_48f69ce85f29e1c326e5e6922605423c.addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+            var marker_08dac80d39b32262157b78b5fc55a400 = L.marker(
+                [48.8608138, 2.3414564],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_b752d739332dd6dc6ca327100d74af37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fe82fb51bf95badf195c05219381941 = $(`<div id="html_4fe82fb51bf95badf195c05219381941" style="width: 100.0%; height: 100.0%;">Date: Sunday - March 17, 2024<br>Time: 8:30AMâ6:30PM<br>Sponsor: Microsoft<br>Event: Cloud Native Rejekts EU 2024<br>Address:  "150 Rue de Rivoli 75001 Paris Frankreich"</div>`)[0];
+                popup_b752d739332dd6dc6ca327100d74af37.setContent(html_4fe82fb51bf95badf195c05219381941);
+            
+        
+
+        marker_08dac80d39b32262157b78b5fc55a400.bindPopup(popup_b752d739332dd6dc6ca327100d74af37)
+        ;
+
+        
+    
+    
+            var marker_3135a1ffa667258079f5dca390b6f569 = L.marker(
+                [48.84430705, 2.423797170025564],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_f2290a1ef41983c895ad7cc2d8cef97c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ce38c3af3e1de520c5256cb079d1c54 = $(`<div id="html_6ce38c3af3e1de520c5256cb079d1c54" style="width: 100.0%; height: 100.0%;">Date: Monday - March 18, 2024<br>Time: 6â10PM<br>Sponsor: Dagger<br>Event: Build Your First Dagger Module<br>Address:  "2 Av. Pasteur 94160 Saint-Mandé Frankreich"</div>`)[0];
+                popup_f2290a1ef41983c895ad7cc2d8cef97c.setContent(html_6ce38c3af3e1de520c5256cb079d1c54);
+            
+        
+
+        marker_3135a1ffa667258079f5dca390b6f569.bindPopup(popup_f2290a1ef41983c895ad7cc2d8cef97c)
+        ;
+
+        
+    
+    
+            var marker_c78ec956b9b5301bdd6cf0fcc9639222 = L.marker(
+                [48.8522368, 2.3728406],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_60265b63a0e0ae83770729dcd275505a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb0bfc73692f12af0d9f81128650e3b3 = $(`<div id="html_eb0bfc73692f12af0d9f81128650e3b3" style="width: 100.0%; height: 100.0%;">Date: Monday - March 18, 2024<br>Time: 7PMâ<br>Sponsor: Community<br>Event: KubeTrain Party Sold Out<br>Address:  "49 Rue du Faubourg Saint-Antoine 75011 Paris Frankreich"</div>`)[0];
+                popup_60265b63a0e0ae83770729dcd275505a.setContent(html_eb0bfc73692f12af0d9f81128650e3b3);
+            
+        
+
+        marker_c78ec956b9b5301bdd6cf0fcc9639222.bindPopup(popup_60265b63a0e0ae83770729dcd275505a)
+        ;
+
+        
+    
+    
+            var marker_777c8ac3a6c6a718b4b409a7e5ba22c9 = L.marker(
+                [48.8608138, 2.3414564],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_b7d8285c939aae6352d33ecf0102602d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf6d4107b24773f9e1698079dd1e0efc = $(`<div id="html_cf6d4107b24773f9e1698079dd1e0efc" style="width: 100.0%; height: 100.0%;">Date: Monday - March 18, 2024<br>Time: 8:30AMâ6:30PM<br>Sponsor: Microsoft<br>Event: Cloud Native Rejekts EU 2024<br>Address:  "150 Rue de Rivoli 75001 Paris Frankreich"</div>`)[0];
+                popup_b7d8285c939aae6352d33ecf0102602d.setContent(html_cf6d4107b24773f9e1698079dd1e0efc);
+            
+        
+
+        marker_777c8ac3a6c6a718b4b409a7e5ba22c9.bindPopup(popup_b7d8285c939aae6352d33ecf0102602d)
+        ;
+
+        
+    
+    
+            var marker_7ab186a650813bdd2430ea267ad23586 = L.marker(
+                [48.8296607, 2.2839092],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_88bccff60960f68b515a80b7ffadba36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44bbd6a87615598f086b0701356923df = $(`<div id="html_44bbd6a87615598f086b0701356923df" style="width: 100.0%; height: 100.0%;">Date: Tuesday -  March 19, 2024<br>Time: 3â9PM<br>Sponsor: Sysdig, Docker,Snyk & Chainguard<br>Event: Hands-On Cloud Native Security Workshop (And Party!)<br>Address:  "5 Rue Ernest Renan 92130 Issy-les-Moulineaux Frankreich"</div>`)[0];
+                popup_88bccff60960f68b515a80b7ffadba36.setContent(html_44bbd6a87615598f086b0701356923df);
+            
+        
+
+        marker_7ab186a650813bdd2430ea267ad23586.bindPopup(popup_88bccff60960f68b515a80b7ffadba36)
+        ;
+
+        
+    
+    
+            var marker_e1c565171a1aa46ca77c17673bfb58a6 = L.marker(
+                [48.832751, 2.2787424],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_a42c689efc5ce0b18e821afeb38aa847 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2f5376b12e3ff75f44070943e27b89b = $(`<div id="html_e2f5376b12e3ff75f44070943e27b89b" style="width: 100.0%; height: 100.0%;">Date: Tuesday -  March 19, 2024<br>Time: 5â11:30PM<br>Sponsor: OVHcloud IRancher by SUSE<br>Event: PaaS Forward hosted by OVHcloud |Rancher by SUSE feat. DJ KUNGS<br>Address:  "20 Rue du Colonel Pierre Avia 75015 Paris Frankreich"</div>`)[0];
+                popup_a42c689efc5ce0b18e821afeb38aa847.setContent(html_e2f5376b12e3ff75f44070943e27b89b);
+            
+        
+
+        marker_e1c565171a1aa46ca77c17673bfb58a6.bindPopup(popup_a42c689efc5ce0b18e821afeb38aa847)
+        ;
+
+        
+    
+    
+            var marker_eeef7fdc96f75ca70fbdee83135b864e = L.marker(
+                [48.8327539, 2.2768935],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_3e59d0acf0ea51860836f12d5af39ee5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a653abaed725d3700c7074e8c53752f1 = $(`<div id="html_a653abaed725d3700c7074e8c53752f1" style="width: 100.0%; height: 100.0%;">Date: Tuesday -  March 19, 2024<br>Time: 6â9PM<br>Sponsor: Equinix Metal& NetApp<br>Event: KubeCon Paris Community Event<br>Address:  "4 Rue Louis Armand 75015 Paris Frankreich"</div>`)[0];
+                popup_3e59d0acf0ea51860836f12d5af39ee5.setContent(html_a653abaed725d3700c7074e8c53752f1);
+            
+        
+
+        marker_eeef7fdc96f75ca70fbdee83135b864e.bindPopup(popup_3e59d0acf0ea51860836f12d5af39ee5)
+        ;
+
+        
+    
+    
+            var marker_a7d0636ab4b51c3aa0c87bff4c0b465c = L.marker(
+                [48.8338421, 2.2902907],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_cd010e36ab9d9b9f928dd2cd2149a27e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31b2b326af9caf3bdb416d9918d56050 = $(`<div id="html_31b2b326af9caf3bdb416d9918d56050" style="width: 100.0%; height: 100.0%;">Date: Tuesday -  March 19, 2024<br>Time: 6:30â8:30PM<br>Sponsor: Harness<br>Event: Cocktails, Small Bites & Networkingwith Engineering Experts<br>Address:  "397 Rue de Vaugirard 75015 Paris Frankreich"</div>`)[0];
+                popup_cd010e36ab9d9b9f928dd2cd2149a27e.setContent(html_31b2b326af9caf3bdb416d9918d56050);
+            
+        
+
+        marker_a7d0636ab4b51c3aa0c87bff4c0b465c.bindPopup(popup_cd010e36ab9d9b9f928dd2cd2149a27e)
+        ;
+
+        
+    
+    
+            var marker_93097e4a55771c6d741dcf629f92663c = L.marker(
+                [48.8307147, 2.2614727],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_d3fff46425cdf951f68b5d6568f8f6e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ecd5b267bf1786d47df2f3b8abc17a1 = $(`<div id="html_1ecd5b267bf1786d47df2f3b8abc17a1" style="width: 100.0%; height: 100.0%;">Date: Tuesday -  March 19, 2024<br>Time: 7â9PM<br>Sponsor: Elastic & Microsoft<br>Event: Meetup ElasticFR #90 - Kubecon Edition<br>Address:  "37 Quai du Président Roosevelt 92130 Issy-les-Moulineaux Frankreich"</div>`)[0];
+                popup_d3fff46425cdf951f68b5d6568f8f6e7.setContent(html_1ecd5b267bf1786d47df2f3b8abc17a1);
+            
+        
+
+        marker_93097e4a55771c6d741dcf629f92663c.bindPopup(popup_d3fff46425cdf951f68b5d6568f8f6e7)
+        ;
+
+        
+    
+    
+            var marker_3ecd73702d1e377fbd82062666b58b8a = L.marker(
+                [48.8716685, 2.3297524],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_482480ad4f1e3ca37d58c4cbdaa82cbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d421ed881e76debad7aeacae0b86db90 = $(`<div id="html_d421ed881e76debad7aeacae0b86db90" style="width: 100.0%; height: 100.0%;">Date: Tuesday -  March 19, 2024<br>Time: 7:30PMâ<br>Sponsor: Wiz<br>Event: Wiz Happy Hour at Le Shack<br>Address:  "4 Imp. Sandrie 75009 Paris Frankreich"</div>`)[0];
+                popup_482480ad4f1e3ca37d58c4cbdaa82cbb.setContent(html_d421ed881e76debad7aeacae0b86db90);
+            
+        
+
+        marker_3ecd73702d1e377fbd82062666b58b8a.bindPopup(popup_482480ad4f1e3ca37d58c4cbdaa82cbb)
+        ;
+
+        
+    
+    
+            var marker_7425cdaabf7d76eda86dd491a83815db = L.marker(
+                [48.8707002, 2.3505428],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_ac793ccd064f0b8adff0a40fb88fb719 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_626d3ee4b1eb969700d087ac0c6e94bf = $(`<div id="html_626d3ee4b1eb969700d087ac0c6e94bf" style="width: 100.0%; height: 100.0%;">Date: Wednesday - March 20, 2024<br>Time: 9PMâ2AM<br>Sponsor: Honeycomb.io, Controlplane,Testifysec & AWS<br>Event: Kuberoke Spring Party Paris<br>Address:  "3 Imp. Bonne Nouvelle 75010 Paris Frankreich"</div>`)[0];
+                popup_ac793ccd064f0b8adff0a40fb88fb719.setContent(html_626d3ee4b1eb969700d087ac0c6e94bf);
+            
+        
+
+        marker_7425cdaabf7d76eda86dd491a83815db.bindPopup(popup_ac793ccd064f0b8adff0a40fb88fb719)
+        ;
+
+        
+    
+    
+            var marker_69cbd0471547d5ecd2e85ef1dffa318d = L.marker(
+                [48.8357004, 2.29299],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_33b882e3103faeaeda844a27c789f9df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53f2cdf8060e97cf5323a292c00375eb = $(`<div id="html_53f2cdf8060e97cf5323a292c00375eb" style="width: 100.0%; height: 100.0%;">Date: Thursday - March 21, 2024<br>Time: 5â7PM<br>Sponsor: Dragonfly, Scarf,& Dagger<br>Event: Community Clink with Dragonfly, Scarf & Dagger<br>Address:  "354 Bis Rue de Vaugirard 75015 Paris Frankreich"</div>`)[0];
+                popup_33b882e3103faeaeda844a27c789f9df.setContent(html_53f2cdf8060e97cf5323a292c00375eb);
+            
+        
+
+        marker_69cbd0471547d5ecd2e85ef1dffa318d.bindPopup(popup_33b882e3103faeaeda844a27c789f9df)
+        ;
+
+        
+    
+    
+            var marker_89bd723facd828beeff2f9da2dd5fe62 = L.marker(
+                [48.8492059, 2.2843452],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_d9c27a80a584a2f82ff61111983be3b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ca15320d153080da00aa26c1d7e69fb = $(`<div id="html_8ca15320d153080da00aa26c1d7e69fb" style="width: 100.0%; height: 100.0%;">Date: Thursday - March 21, 2024<br>Time: 6â8PM<br>Sponsor: HCS Company & Kangaroot<br>Event: KuBBBecon 2024 - Benelux Bowling Borrel<br>Address:  "15 Rue Gaston de Caillavet 75015 Paris Frankreich"</div>`)[0];
+                popup_d9c27a80a584a2f82ff61111983be3b4.setContent(html_8ca15320d153080da00aa26c1d7e69fb);
+            
+        
+
+        marker_89bd723facd828beeff2f9da2dd5fe62.bindPopup(popup_d9c27a80a584a2f82ff61111983be3b4)
+        ;
+
+        
+    
+    
+            var marker_a1cd679381bdea16aec637a3415d9922 = L.marker(
+                [48.8321776, 2.2900155],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_0b666b89da918d8484728e39bb04a9e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3107d8a37b7e755ad107f1849dba6bcb = $(`<div id="html_3107d8a37b7e755ad107f1849dba6bcb" style="width: 100.0%; height: 100.0%;">Date: Thursday - March 21, 2024<br>Time: 6â9PM<br>Sponsor: Docker, Pulumi,Tailscale & New Relic<br>Event: Docker Meetup at KubeCon:Drinks, Snacks and a lively panel<br>Address:  "19 Bd Lefebvre 75015 Paris Frankreich"</div>`)[0];
+                popup_0b666b89da918d8484728e39bb04a9e7.setContent(html_3107d8a37b7e755ad107f1849dba6bcb);
+            
+        
+
+        marker_a1cd679381bdea16aec637a3415d9922.bindPopup(popup_0b666b89da918d8484728e39bb04a9e7)
+        ;
+
+        
+    
+    
+            var marker_8bb9fb3ac7c583bd10c0d6fb8f6c7117 = L.marker(
+                [48.8335017, 2.2868863],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_ea44d2fce8eda2f823508520939ca4c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a503a2ab752902d67fb7439ae7fd8325 = $(`<div id="html_a503a2ab752902d67fb7439ae7fd8325" style="width: 100.0%; height: 100.0%;">Date: Thursday - March 21, 2024<br>Time: 6:30â9:30PM<br>Sponsor: Axiom<br>Event: Drinks, Chats, Logs, and Traces with Axiom {Featuring: AWS}<br>Address:  "53 Bd Victor 75015 Paris Frankreich"</div>`)[0];
+                popup_ea44d2fce8eda2f823508520939ca4c7.setContent(html_a503a2ab752902d67fb7439ae7fd8325);
+            
+        
+
+        marker_8bb9fb3ac7c583bd10c0d6fb8f6c7117.bindPopup(popup_ea44d2fce8eda2f823508520939ca4c7)
+        ;
+
+        
+    
+    
+            var marker_a5b45bc8013554d2509317e0ef0f952e = L.marker(
+                [48.8333386, 2.2903946],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_dcadcfe6ca91407c052318d6849f73c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41e83be7c727b94189a776af66aa3e41 = $(`<div id="html_41e83be7c727b94189a776af66aa3e41" style="width: 100.0%; height: 100.0%;">Date: Thursday - March 21, 2024<br>Time: 6:30â9:30PM<br>Sponsor: CAST AI, Port& Upbound<br>Event: Cloud-Native Cocktails<br>Address:  "397 Bis Rue de Vaugirard 75015 Paris Frankreich"</div>`)[0];
+                popup_dcadcfe6ca91407c052318d6849f73c6.setContent(html_41e83be7c727b94189a776af66aa3e41);
+            
+        
+
+        marker_a5b45bc8013554d2509317e0ef0f952e.bindPopup(popup_dcadcfe6ca91407c052318d6849f73c6)
+        ;
+
+        
+    
+    
+            var marker_f24489164c5bef11423114f1fccb561d = L.marker(
+                [48.8330006, 2.2859353],
+                {}
+            ).addTo(map_a847c3dc81bbd93ff3518f6a568ffcf3);
+        
+    
+        var popup_e63c747875e54278e335f54b30d034a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8bd2700e060176d582909808f9d48d6 = $(`<div id="html_c8bd2700e060176d582909808f9d48d6" style="width: 100.0%; height: 100.0%;">Date: Friday - March 22, 2024<br>Time: 12:30â2PM<br>Sponsor: Kubeshop<br>Event: KubeJam<br>Address:  "34 Bd Victor 75015 Paris Frankreich"</div>`)[0];
+                popup_e63c747875e54278e335f54b30d034a2.setContent(html_c8bd2700e060176d582909808f9d48d6);
+            
+        
+
+        marker_f24489164c5bef11423114f1fccb561d.bindPopup(popup_e63c747875e54278e335f54b30d034a2)
+        ;
+
+        
+    
+</script>
+</html>
