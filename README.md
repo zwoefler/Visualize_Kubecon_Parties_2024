@@ -1,5 +1,7 @@
 # Visualize Kubecon 2024 Parties
 
+https://zwoefler.github.io/Visualize_Kubecon_Parties_2024/
+
 Parties form: https://conferenceparties.com/kubeconeu24/
 
 1. Get HTML table
